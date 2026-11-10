@@ -1,0 +1,12 @@
+{
+  "name": "opencode-mnn-images-bridge",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "OpenCode V2 attachment bridge for the remote MNN image MCP",
+  "exports": {
+    ".": "./index.js",
+    "./gui-experimental": "./gui-experimental.cjs"
+  },
+  "files": ["index.js", "gui-experimental.cjs"],
+  "engines": {"node": ">=20"}
+}
